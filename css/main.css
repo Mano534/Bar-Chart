@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    margin:0px;
+    padding:0px;
+    display : flex ; 
+    justify-content: center;
+    align-items: center;
+    padding : 40px;
+    background-color: rgb(19, 54, 255);
+}
+svg{
+    margin-top: 5%;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.tooltip {
+    position: absolute;
+    font-size: 1.2rem;
+    transition: .3s;
+    transform: translate(-50%,-50%);
+    color : rgb(19, 54, 255) ;
+    background-color:white ;
+    z-index:2;
+}
+rect.bar {
+    fill: #72c7ff;
+}
+rect.bar:active{
+    fill: rgb(19, 54, 255);
+
+}
+rect.bar:hover{
+    fill: #fff ; 
+
+}
+::selection{
+    background-color: deepskyblue;
+    color : #fff ;
+}
+
